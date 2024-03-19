@@ -1,0 +1,351 @@
+{
+  "intents": [
+    {
+      "tag": "asalamualaikum",
+      "patterns": [
+        "assalamu'alaikum",
+        "assalamualaikum",
+        "asalamualaikum",
+        "salamualaikum",
+        "assalamu'alaikum wr wb",
+        "ass",
+        "assalamu",
+        "salam"
+      ],
+      "responses": [
+        "Waalaikumsalam Warahmatullahi Wabarakatuh"
+      ]
+    },
+    {
+      "tag": "salam",
+      "patterns": [
+        "Hai",
+        "Halo",
+        "hey",
+        "He",
+        "permisi",
+        "misi",
+        "salam",
+        "assalamu'alaikum"
+      ],
+      "responses": [
+        "Halo ada yang bisa kami bantu",
+        "Ada yang bisa kami bantu",
+        "Silahkan, ada yang bisa kami bantu",
+        "Hai, ada yang bisa kami bantu"
+      ]
+    },
+    {
+      "tag": "kabar",
+      "patterns": [
+        "hai Apa kabar",
+        "Halo kabar gimana",
+        "Kondisi anda"
+      ],
+      "responses": [
+        "Kabar kami baik terima kasih",
+        "kami baik baik saja terima kasih",
+        "Sangat baik terima kasih"
+      ]
+    },
+    {
+      "tag": "terimakasih",
+      "patterns": [
+        "terima kasih",
+        "terima kasih banyak",
+        "suwun",
+        "terima kasih sekali"],
+      "responses": [
+        "Terima kasih kembali",
+        "sama-sama",
+        "Terima kasih juga"]
+    },
+    {
+      "tag": "akses",
+      "patterns": [
+        "Alamat Aplikasi",
+        "Url Aplikasi",
+        "Bagaimana cara akses aplikasi",
+        "Bagaimana cara buka aplikasi",
+        "alamat website acmt",
+        "Cara Akses Aplikasi acmt"
+      ],
+      "responses": [
+        "Alamat aplikasi acmt adalah https://portalapp.iconpln.co.id/acmt/",
+        "Url aplikasi acmt adalah https://portalapp.iconpln.co.id/acmt/",
+        "Website aplikasi acmt adalah https://portalapp.iconpln.co.id/acmt/"
+      ]
+    },
+    {
+      "tag": "login",
+      "patterns": [
+        "Cara Login",
+        "Bagaimana cara login ke aplikasi",
+        "Untuk login caranya gimana",
+        "Cara masuk ke aplikasi"
+      ],
+      "responses": [
+        "Setelah mengakses ke aplikasi silahkan masukan Username dan password",
+        "silahkan masukan Username dan password dengan benar"
+      ]
+    },
+    {
+      "tag": "downloadDPMPrabayar",
+      "patterns": [
+        "Cara Download DPM Prabayar",
+        "Caranya download DPM Prabayar",
+        "download dpm prabayar dimenu apa?",
+        "download DPM prabayar caranya gimana ?"
+      ],
+      "responses": [
+        "Berikut adalah cara download DPM Prabayar : \n1. Login ke alamat website aplikasi ACMT : https://portalapp.iconpln.co.id/acmt/ menggunakan user dan password unit. \n2. Masuk ke menu Proses-> Data AP2T-> Download DPM Prabayar \n3. Klik button Download DPM \n.4 Tunggu sampai terdapat notifikasi Sukses"
+      ]
+    },
+    {
+      "tag": "downloadDPMPascabayar",
+      "patterns": [
+        "Cara Download DPM Pascabayar",
+        "Caranya download DPM Paska bayar",
+        "download dpm paskabayar dimenu apa?",
+        "download DPM pasca bayar caranya gimana ?"
+      ],
+      "responses": [
+        "Berikut adalah cara download DPM Pascabayar: \n1. Login ke alamat website aplikasi ACMT : https://portalapp.iconpln.co.id/acmt/ menggunakan user dan password unit petugas. \n2. Masuk ke menu Proses-> Data AP2T-> Download DPM Pascabayar \n3. Ambil Rekap DPM AP2T sebelum melakukan penarikan data DPM \n4. Jika ingin download DPM per hari baca-> pilih hari baca yang akan didownload-> klik button download \n5. Jika ingin download DPM per RBM-> Pilih Hari baca yang akan di download-> Klik button Lihat per kode RBM-> Pilih RBM-> Klik Button Download"
+      ]
+    },
+    {
+      "tag": "monitoringBaca",
+      "patterns": [
+        "Bagaimana cara melihat hasil baca petugas",
+        "melihat hasil baca dimenu apa",
+        "monitoring hasil baca petugas"
+      ],
+      "responses": [
+        "Monitoring pembacaan meter ini bisa dilakukan oleh user admin PLN dan user admin vendor. Caranya : \n1. Pilih Menu Monitoring \n2. Pilih Sub Menu Waktu Pembacaan Meter \n3. Load Data \n4. Pilih Bulan, Tahun \n5. Klik Load Data Untuk Filtering Data \n6. Pilih RBM \n7. Klik Lihat Data \n8. Tampil Data Pelanggan"
+      ]
+    },
+    {
+      "tag": "resetImei",
+      "patterns": [
+        "Cara reset imei",
+        "reset password"
+      ],
+      "responses": [
+        "Berikut langkah-langkah reset IMEI dalam aplikasi BO: \n1. Login BO \n2. Masukan UNITUPI, \n3. Masukan UNITAP \n4. Masukan UNITUP \n5. Klik Load \n6. Cari dan klik data user yang akan direset \n7. Dalam menu status klik update \nAnda juga dapat mengirimkan email ke servicedesk.pln.co.id dengan melampirkan user petugas"
+      ]
+    },
+    {
+      "tag": "importFotoStan",
+      "patterns": [
+        "bagaimana cara import manual foto stan",
+        "import foto stan",
+        "kendala import manual"
+      ],
+      "responses": [
+        "Jika foto dan data masih terdapat pada hp/device yang di gunakan petugas silahkan lakukan proses import, jika masih terkendala bisa menggunakan device/hp yang berbeda, berikut kami lampirkan tutorial nya \nNote : Jika masih terkendala pada saat import foto silahkan untuk melampirkan foto pada lampirkan email"
+      ]
+    },
+    {
+      "tag": "kirimData",
+      "patterns": [
+        "dapat dikirimkan data foto",
+        "di berikan data foto dan stand",
+        "dikirimkan data historis",
+        "kirimkan histori foto",
+        "kirimkan history stand dan foto",
+        "dapat di support data",
+        "dapat di kirimkan data",
+        "untuk dapat memberikan data",
+        "mohon dibantu data history",
+        "bantuan pengiriman history",
+        "minta dikirimkan data hasil pembacaan meter prabayar"
+      ],
+      "responses": [
+        "Silahkan email ke servicedesk.pln.co.id dengan melampirkan ID pelanggan, bulan tahun dari data. \nUntuk permintaan data detail silahkan melampirkan BA permintaan data dari wilayah yang ditujukan ke Niaga Pusat beserta format yang diinginkan. Jika menginginkan data yang non masking, harap melampirkan juga permohonan untuk data non masking seperti form terlampir."
+      ]
+    },
+    {
+      "tag": "gagalInputSisipan",
+      "patterns": [
+        "Terdapat kendala baca meter dengan menu update langkah atau sisipan"
+      ],
+      "responses": [
+        "Silahkan email ke servicedesk.pln.co.id dengan melampirkan ID pelanggan, kode unit, kode RBM, dan bukti screenshot kegagalan"
+      ]
+    },
+    {
+      "tag": "kendalaRBM",
+      "patterns": [
+        "kendala rbmnya tidak berubah/update di aplikasi acmt",
+        "Mohon di tindak lanjut karena RBM Prabayar tidak sesuai dengan data yang sudah di upload dan disahkan pada AP2T",
+        "MOHON DI BANTU. PROSES RUBAH KODE KEDUDUKAN (RBM) , DI AP2T SUDAH BERHASIL, NAMUN DI ACMT TIDAK BERHASIL",
+        "kita sudah lakukan download LPB tapi data tidak berubah",
+        "RBM pelanggan ULP Sumba Timur (43300) LPB di aplikasi ACMT tidak sesuai dengan RBM pada aplikasi AP2T",
+        "Pada AP2T sudah berhasil berubah namun pada ACMT masih belum ada perubahan"
+      ],
+      "responses": [
+        "untuk dpm prabayar, jika ada pdl diap2t mohon di acmt pada menu proses > data ap2t > download dpm prabayar. silahkan di lakukan proses download dpm agar diacmt juga ikut terupdate, jika ingin dilakukan pengecekan silahkan email ke servicedesk.pln.co.id."
+      ]
+    },
+    {
+      "tag": "kendalaSettingHP",
+      "patterns": [
+        "Mohon dibantu terkait aplikasi acmt, yang tidak muncul informasi ok untuk proses selanjutnya foto terlampir"
+      ],
+      "responses": [
+        "Silahkan untuk setting devices/hp ke settingan berikut : \n1. Ke Setting/Pengaturan \n2. Cari Tampilan \n3. Cari Aplikasi Layar Penuh \n4. Pilih Aplikasi ACMT \n5. Ganti Pakai Layar Penuh ( Bukan Default Aplikasi ) (Automatically Closed)"
+      ]
+    },
+    {
+      "tag": "kendalaSwacam",
+      "patterns": [
+        "Mohon bantuannya kami ada kendala terkait pelanggan belum entri stan setelah kami periksa ternyata pelanggan swacam dimana stan acmt tidak terkirim ke AP2T."
+      ],
+      "responses": [
+        "Silahkan lakukan pengiriman ke ap2t melalui aplikasi ACMT BO dan dilanjutkan dengan pengesahan pada aplikasi AP2T agar data tersebut bisa di proses di AP2T, jika ingin dilakukan pengecekan silahkan email ke servicedesk.pln.co.id."
+      ]
+    },
+    {
+      "tag": "gagalLoadMenu",
+      "patterns": [
+        "Mohon bantuan terkait gagal load menu waktu pembacaan prabayar periode September 2023"
+      ],
+      "responses": [
+        "Silahkan dicek kembali, mohon dilakukan relogin terlebih dahulu"
+      ]
+    },
+    {
+      "tag": "bypass",
+      "patterns": [
+        "bypass Download DPM hari baca",
+        "bypass download data DPM Prabayar, sudah dilakukan download berulang tapi tanggal download dan jumlah pelanggan belum berubah",
+        "bantu bypass Download DPM"
+      ],
+      "responses": [
+        "Silahkan email ke servicedesk.pln.co.id dengan melampirkan kode unit dan kode kelompok yang akan di bypass."
+      ]
+    },
+    {
+      "tag": "hasilPembacaan",
+      "patterns": [
+        "Mohon bantuannya, Hasil pembacaan LPB berupa Foto tidak muncul di web ACMT di informasi pelanggan"
+      ],
+      "responses": [
+        "Untuk pelanggan prabayar silahkan cek pada menu informasi > hystori pelanggan prabayar"
+      ]
+    },
+    {
+      "tag": "kendalaDownloadDPM",
+      "patterns": [
+        "Terdapat kendala baca meter, mohon bantuannya, tidak bisa download dpm",
+        "RBM di aplikasi ACMT tidak sesuai, sudah lakukan download LPB tapi data tidak berubah",
+        "data tidak sama dengan DIL AP2T Terbaru",
+        "kesulitan mendownload DPM LPB untuk tagging",
+        "kendala pdl kolektif koduk LPB di AP2T berhasil Akan tetapi di ACMT tidak berubah., sudah clear cache, clear cookies, clear history, tetap tidak sesuai, koneksi stabil",
+        "sudah 2 bulan ini download DPM Prabayar di ACMT tidak bisa, sudah mengikuti langkah yang disarankan (setting periode baca LPB di AP2T, dan download DPM Prabayar di ACMT), sudah clear cache tetap tidak bisa",
+        "saat download DPM prabayar tidak ada perubahan yang terecord masih data download bulan sebelumnya",
+        "terkendala pembacaan prabayar melalui aplikasi ACMT yang pelanggan tersebut adalah pelanggan baru yang tidak dapat dibaca. Saat dilakukan pencarian di aplikasi ACMT mobile pelanggan tersebut tidak muncul"
+      ],
+      "responses": [
+        "Jika ada PDL silahkan melakukan download dpm lpb secara berulang sampai kddk pada AP2T sesuai dengan ACMT. Jika saat download dpm tidak muncul proses sedang mendownload, clear cache pada browser yg digunakan dan pastikan menggunakan jaringan yg stabil. Tanggal download pada rekap dpm acmt akan terupdate, jika dilakukan download dpm prabayar dan ada pdl di AP2T 30 hari kebelakang diap2t. Apabila tidak ada pdl 30 hari kebelakang diap2t data dpm tidak terupdate tanggal di menu tersebut. \nJika ingin dilakukan pengecekan silahkan email ke servicedesk.pln.co.id dengan melampirkan kode unit yang akan dicek."
+      ]
+    },
+    {
+      "tag": "kendalaDownloadDPMAMR",
+      "patterns": [
+        "kendala gagal download DPM Paskabayar untuk pelanggan AMR dengan keterangan setting hari baca terlebih dahulu. Sementara sebelumnya telah dilakukan setting hari baca dan saat ini sudah memasuki H-2"
+      ],
+      "responses": [
+        "Untuk pembacaan pelanggan AMR dilakukan setiap tanggal 1 pada setiap bulannya, dan untuk download DPM bisa dilakukan pada tgl 1, silahkan dicoba kembali"
+      ]
+    },
+    {
+      "tag": "kendalaTanggalDownload",
+      "patterns": [
+        "Terdapat kendala baca meter,  Mohon di cek ada pelanggan ini tidak mau pindah,  RBM pelanggan LPB di aplikasi ACMT tidak sesuai, kita sudah lakukan download LPB tapi data tidak berubah, data tidak sama dengan DIL AP2T Terbaru"
+      ],
+      "responses": [
+        "Silahkan di lakukan download DPM terlebih dulu. Jika ada Perubahan Data pelanggan pada hari baca tersebut maka tanggal download nya juga ikut tanggal download terakhir"
+      ]
+    },
+    {
+      "tag": "kendalaPembacaanMeter",
+      "patterns": [
+        "Untuk data yang sudah terbaca baik Online dan Offline tidak tersimpan di BO. Untuk case ini terjadi hampir pada semua petugas. Untuk langkah-langkah awal kita sudah melakukan, Ekspor dan Impor Stand ulang."
+      ],
+      "responses": [
+        "Pastikan pada saat baca lpb mohon untuk di assign terlebih dahulu dan dilakukan baca secara online. jika data ada yg belum masuk ke BO silahkan melakukan import manual, dan selalu pastikan semua data yg sudah terkirim dari device petugas. jika masih blm terkirim silahkan bisa menggunakan device lainnya, serta pastikan menggunakan koneksi yg stabil, karna kami cek dari foto yg terlampir semua device sedang offline atau kondisi sinyal tdk stabil, mohon untuk pembacaan berikutnya harap pastikan koneksi dalam keadaan stabil."
+      ]
+    },
+    {
+      "tag": "perubahanUser",
+      "patterns": [
+        "Ada perubahan user pada acmt dr petugas lama ke petugas yang baru",
+        "perubahan user acmt lama ke baru",
+        "update user acmt",
+        "perubahan user petugas acmt"
+      ],
+      "responses": [
+        "Silahkan email ke servicedesk.pln.co.id dengan melampirkan kode petugas yang lama dan yang baru."
+      ]
+    },
+    {
+      "tag": "sopInfoPelanggan",
+      "patterns": [
+        "Petunjuk dan Penyelesaian terkait, detail keterangan di info Pelanggan, tidak nampak hasil terbaca di Info Pelanggan, akan tetapi direkap baca Meter ada"
+      ],
+      "responses": [
+        "Untuk pelanggan prabayar silahkan di cek di menu history pelanggan prabayar. Berikut kami lampirkan capture nya."
+      ]
+    },
+    {
+      "tag": "sopACMT",
+      "patterns": [
+        "mohon agar kami dapat dikirimkan SOP ACMT"
+      ],
+      "responses": [
+        "Berikut link untuk file SOP ACMT https://drive.google.com/file/d/1wA0EjSimFZUTPGq0BBhKTq32fOd8ddzB/view?usp=drive_link"
+      ]
+    },
+    {
+      "tag": "sopManagementUser",
+      "patterns": [
+        "kami mohon Informasi terkait pembuatan User Aplikasi ACMT khusus Pegawai",
+        "Penambahan user baru",
+        "pembuatan user baru",
+        "penambahan user acmt",
+        "penambahan user aplikasi acmt"
+      ],
+      "responses": [
+        "Untuk aplikasi web ACMT BO tiap unit maksimal hanya 1(satu) user. \nJika user pegawai ingin mengakses menu ACMT silahakn melalui aplikasi AP2T F2 menu pencatatan meter terpusat. untuk dapat mengakses menu acmt di AP2T harus mempunyai role sbb: \nlevel ULP -> ADMIN_CMT, ADMIN_MON_CMT, \nlevel UP3 -> ADMIN_IMEI_CMT, ADMIN_MON_CMT, \nlevel UIW/UID -> ADMIN_MON_CMT. Jika belum memiliki role tersebut silahkan ajukan melalui management user. Berikut kami lampirkan SOP management User"
+      ]
+    },
+    {
+      "tag": "sopPembacaanLPB",
+      "patterns": [
+        "mohon dapat dikirim sop pembacaan lpb acmt ap2t terbaru"
+      ],
+      "responses": [
+        "Berikut terlampir SOP ACMT pembacaan LPB terbaru : https://drive.google.com/file/d/15Sq1lYfzl3dmG5Mut39W8aQyzq_M503h/view?usp=sharing"
+      ]
+    },
+    {
+      "tag": "sopPendataanPelanggan",
+      "patterns": [
+        "Mohon bantuan untuk bisa dikirimkan file SOP atau tutorial pendataan pelanggan MPB via Aplikasi ACMT MOBILE"
+      ],
+      "responses": [
+        "Berikut terlampir SOP ACMT : https://drive.google.com/file/d/15Sq1lYfzl3dmG5Mut39W8aQyzq_M503h/view?usp=sharing"
+      ]
+    },
+    {
+      "tag": "sopPenyambunganBaru",
+      "patterns": [
+        "Cara agar pelanggan baru terutama prabayar agar dapat di baca melalui ACMT Mobile bagaimana"
+      ],
+      "responses": [
+        "Berikut kami lampirkan SOP ACMT : https://drive.google.com/file/d/15Sq1lYfzl3dmG5Mut39W8aQyzq_M503h/view?usp=sharing. Silahkan dicek kembali apakah langkah-langkah yang telah dilakukan sudah sesuai."
+      ]
+    }
+  ]
+}
